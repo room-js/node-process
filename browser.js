@@ -157,7 +157,9 @@ process.browser = true;
 process.env = {};
 process.argv = [];
 process.version = ''; // empty string to avoid regexp issues
-process.versions = {};
+process.versions = {
+    node: '20.0'
+};
 
 function noop() {}
 
